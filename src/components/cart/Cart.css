@@ -1,0 +1,23 @@
+.cart {
+  position: absolute;
+  background-color: white;
+  z-index: 100;
+  width: 20%;
+  height: min-content;
+  border: 1px solid var(--borderLight);
+  display: flex;
+  padding-top: 1rem;
+  flex-direction: column;
+}
+.cart-item {
+  display: flex;
+  height: 35%;
+  margin-bottom: 1.5rem;
+}
+.cart-img {
+  max-height: 16vh;
+  margin: 0 1rem;
+}
+.cart-info > p {
+  margin-bottom: 0.5rem;
+}
